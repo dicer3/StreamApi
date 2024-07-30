@@ -23,7 +23,7 @@ class Employee1 implements Serializable{
 
 public class Serz {
     public static void main(String[] args){
-
+        
         try {
         Employee1 e1 = new Employee1(21, "pragun");
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("file.txt"));
